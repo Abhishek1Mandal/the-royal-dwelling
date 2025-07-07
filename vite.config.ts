@@ -19,5 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/luxe-real-estate-web/',
+  base: '/the-royal-dwelling/',
 }));
