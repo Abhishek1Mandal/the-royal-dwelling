@@ -8,7 +8,7 @@ const FeaturedProjects = () => {
       name: "The Pearl",
       type: "Residential",
       location: "Downtown District",
-      video: "/video2.mp4",
+      video: "/the-royal-dwelling/video2.mp4",
       description:
         "Luxury 4 BHK Sky Mansions with panoramic city views and world-class amenities.",
       features: ["4 BHK Apartments", "Sky Garden", "Infinity Pool", "Smart Home"]
@@ -18,7 +18,7 @@ const FeaturedProjects = () => {
       name: "The Regent",
       type: "Residential",
       location: "Tech Corridor",
-      video: "/video3.mp4",
+      video: "/the-royal-dwelling/video3.mp4",
       description:
         "Premium 3 BHK apartments designed for modern living with sustainable features.",
       features: ["3 BHK Apartments", "Green Building", "Fitness Center", "Children's Play Area"]
@@ -28,7 +28,7 @@ const FeaturedProjects = () => {
       name: "Galaxy Tower",
       type: "Commercial",
       location: "Business Hub",
-      video: "/video4.mp4",
+      video: "/the-royal-dwelling/video4.mp4",
       description:
         "Grade A office spaces with LEED Gold certification and cutting-edge technology.",
       features: ["Grade A Offices", "LEED Gold", "High-Speed Elevators", "24/7 Security"]

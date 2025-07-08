@@ -94,10 +94,10 @@ return (
     {/* Hero Section */}
     <section
       className="relative h-64 bg-center bg-cover bg-no-repeat"
-      style={{ backgroundImage: "url('/ProjectBackground.jpg')" }}
+      style={{ backgroundImage: "url('/the-royal-dwelling/ProjectBackground.jpg')" }}
     >
       <div className="absolute inset-0 bg-black/40"></div>
-      <div className="relative z-10 flex items-center justify-center h-full">
+      <div className="relative z-10 flex items-center justify-center h-full">cls
         <div className="text-center text-white">
           <h1 className="text-5xl font-bold mb-4">Our Projects</h1>
           <p className="text-lg opacity-90">
