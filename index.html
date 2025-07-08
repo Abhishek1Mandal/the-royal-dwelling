@@ -3,48 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#000000" />
-    
     <title>The Royal Dwelling | Luxury Real Estate</title>
-    <meta name="description" content="Discover premium luxury properties with The Royal Dwelling - Your gateway to exclusive real estate investments" />
-    <meta name="author" content="The Royal Dwelling" />
+    <meta
+      name="description"
+      content="Premium luxury properties with The Royal Dwelling"
+    />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://abhishek1mandal.github.io/the-royal-dwelling/" />
-    <meta property="og:title" content="The Royal Dwelling | Luxury Real Estate" />
-    <meta property="og:description" content="Discover premium luxury properties with The Royal Dwelling" />
-    <meta property="og:image" content="https://abhishek1mandal.github.io/the-royal-dwelling/social-image.jpg" />
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://abhishek1mandal.github.io/the-royal-dwelling/" />
-    <meta name="twitter:title" content="The Royal Dwelling | Luxury Real Estate" />
-    <meta name="twitter:description" content="Discover premium luxury properties with The Royal Dwelling" />
-    <meta name="twitter:image" content="https://abhishek1mandal.github.io/the-royal-dwelling/social-image.jpg" />
+    <meta
+      property="og:url"
+      content="https://abhishek1mandal.github.io/the-royal-dwelling/"
+    />
+    <meta
+      property="og:title"
+      content="The Royal Dwelling | Luxury Real Estate"
+    />
+    <meta
+      property="og:description"
+      content="Premium luxury properties with The Royal Dwelling"
+    />
+    <meta
+      property="og:image"
+      content="https://abhishek1mandal.github.io/the-royal-dwelling/social-image.jpg"
+    />
 
     <!-- Favicon -->
-    <link rel="icon" href="/the-royal-dwelling/favicon.ico" />
-    <link rel="apple-touch-icon" href="/the-royal-dwelling/logo192.png" />
-
-    <!-- Preload critical resources -->
-    <link rel="preload" href="/the-royal-dwelling/assets/main-[hash].js" as="script" />
-    
-    <!-- Preconnect to important origins -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="/favicon.ico" />
   </head>
 
   <body>
-    <noscript>
-      <strong>We're sorry but The Royal Dwelling doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    
-    <!-- Fallback for GitHub Pages routing -->
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- GitHub Pages SPA Fallback -->
     <script>
-      // Single Page Apps for GitHub Pages
-      (function() {
+      (function () {
         var redirect = sessionStorage.redirect;
         delete sessionStorage.redirect;
         if (redirect && redirect != location.href) {
@@ -52,7 +47,5 @@
         }
       })();
     </script>
-    
-    <script type="module" src="/the-royal-dwelling/src/main.tsx"></script>
   </body>
 </html>

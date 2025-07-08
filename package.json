@@ -1,8 +1,9 @@
 {
   "name": "the-royal-dwelling",
-  "homepage": "https://abhishek1mandal.github.io/the-royal-dwelling",
   "private": true,
+  "version": "1.0.0",
   "type": "module",
+  "homepage": "https://abhishek1mandal.github.io/the-royal-dwelling",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
